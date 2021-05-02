@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/multiple-progressbar-demo/static/css/main.fdc7438a.chunk.css",
+    "main.js": "/multiple-progressbar-demo/static/js/main.e8efc09c.chunk.js",
+    "main.js.map": "/multiple-progressbar-demo/static/js/main.e8efc09c.chunk.js.map",
+    "runtime-main.js": "/multiple-progressbar-demo/static/js/runtime-main.55f8bb7d.js",
+    "runtime-main.js.map": "/multiple-progressbar-demo/static/js/runtime-main.55f8bb7d.js.map",
+    "static/js/2.123b3c28.chunk.js": "/multiple-progressbar-demo/static/js/2.123b3c28.chunk.js",
+    "static/js/2.123b3c28.chunk.js.map": "/multiple-progressbar-demo/static/js/2.123b3c28.chunk.js.map",
+    "index.html": "/multiple-progressbar-demo/index.html",
+    "static/css/main.fdc7438a.chunk.css.map": "/multiple-progressbar-demo/static/css/main.fdc7438a.chunk.css.map",
+    "static/js/2.123b3c28.chunk.js.LICENSE.txt": "/multiple-progressbar-demo/static/js/2.123b3c28.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.55f8bb7d.js",
+    "static/js/2.123b3c28.chunk.js",
+    "static/css/main.fdc7438a.chunk.css",
+    "static/js/main.e8efc09c.chunk.js"
+  ]
+}
