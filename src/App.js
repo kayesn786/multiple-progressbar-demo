@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import AddProgressBar from "./AddProgressBar";
+import "./App.css";
 
 function App() {
+  const [state, setState] = useState([]);
+  const handleClick = () => {
+    setState([...state, <AddProgressBar />]);
+  };
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="progress-container">
+        {state.map((item, index) => (
+          <span key={index}>{item}</span>
+        ))}
+      </div>
+
+      <button onClick={handleClick}>Add ProgressBar</button>
     </div>
   );
 }
